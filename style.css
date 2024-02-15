@@ -1,0 +1,98 @@
+/* basic */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* здесь взяли шрифты с google fonts  */
+  font-family: "Inter", sans-serif;
+}
+
+/* header */
+
+.container {
+  height: 264px;
+  width: 264px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.header-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_social {
+  display: flex;
+  list-style-type: none;
+}
+
+.social_icon_vk,
+.social_icon_telegram,
+.social_icon_whatsUp {
+  width: 32px;
+  height: 23px;
+}
+.info-box {
+  margin-top: 50px;
+  display: flex;
+}
+
+.info-list > li {
+  padding: 8px;
+  margin-left: 50px;
+  padding-right: 50px;
+  list-style-type: none;
+  color: #9999a3;
+}
+.right > li {
+  color: black;
+}
+
+/* main */
+.main-wrapper {
+  padding-top: 30px;
+  padding-left: 70px;
+}
+.main-box {
+  padding-left: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+/* ==== */
+
+.main-content {
+  max-width: 64%;
+}
+.main-list:nth-child(1n) {
+  color: #9999a3;
+}
+.main-text {
+  background-color: #a9a9fd;
+  color: white;
+  border-radius: 7px;
+  padding: 5px;
+}
+.more {
+  background-color: #f1a9fd;
+  color: white;
+  border-radius: 7px;
+  padding: 5px;
+}
+/* skills language aboutme */
+
+.skills,
+.language,
+.aboutme {
+  margin-left: 243px;
+  margin-bottom: 50px;
+}
